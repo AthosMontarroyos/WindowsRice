@@ -633,6 +633,7 @@ $scripts = @(
 			'Google.Chrome';
 			'Google.Antigravity';
 			'Google.AntigravityIDE';
+			'Docker.DockerDesktop';
 		);
 		foreach( $app in $apps ) {
 			winget install --id $app --silent --accept-package-agreements --accept-source-agreements;
