@@ -634,6 +634,7 @@ $scripts = @(
 			'OpenJS.NodeJS';
 			'python3';
 			'Tailscale.Tailscale';
+			'Cloudflare.cloudflared';
 		);
 		foreach( $app in $apps ) {
 			winget install --id $app --silent --accept-package-agreements --accept-source-agreements;
