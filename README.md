@@ -49,3 +49,16 @@ sed -i 's/\r//' ~/WindowsDotfiles/WSL/Config/main.sh && bash ~/WindowsDotfiles/W
 ```
 
 This script will apply the complete WSL configuration.
+
+The main configuration also installs or updates the Codex CLI using the official
+Linux installer. After installation, run:
+
+```bash
+codex
+```
+
+Sign in with ChatGPT when prompted. The shell configuration also provides `cx`
+as a short alias for `codex`.
+
+During an unattended Windows installation, the ChatGPT desktop app (with Codex)
+is installed from the Microsoft Store.

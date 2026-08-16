@@ -17,6 +17,7 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
 fi
 
 source "$SCRIPT_DIR/setup-initial.sh"
+source "$SCRIPT_DIR/install-codex.sh"
 source "$SCRIPT_DIR/install-packages.sh"
 source "$SCRIPT_DIR/apply-configs.sh"
 source "$SCRIPT_DIR/setup-fish.sh"
@@ -28,6 +29,7 @@ run_install_module() {
     install_yay
 
     install_official_packages
+    install_codex_cli
     install_aur_packages
 
     apply_dots

@@ -42,7 +42,7 @@ if status is-interactive
     # ============================================================
     alias dc='docker compose'
     alias lzd='lazydocker'
-    alias oc='opencode'
+    alias cx='codex'
 
     alias g='git'
     alias gs='git status'

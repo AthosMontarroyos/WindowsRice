@@ -612,10 +612,11 @@ $scripts = @(
 			'Notion.Notion';
 			'Obsidian.Obsidian';
 			'Vencord.Vesktop';
+			'Telegram.TelegramDesktop';
 			'Anthropic.Claude';
 			'Valve.Steam';
-			'RiotGames.Valorant.BR';
 			'pizzaboxer.Bloxstrap';
+			'RiotGames.Valorant.BR';
 			'Overwolf.CurseForge';
 			'TwintailTeam.TTL';
 			'RARLAB.WinRAR';
@@ -627,14 +628,15 @@ $scripts = @(
             'Microsoft.PowerToys';
 			'JanDeDobbeleer.OhMyPosh';
 			'DEVCOM.JetBrainsMonoNerdFont';
-			'Google.Chrome';
-			'Google.Antigravity';
 			'Google.AntigravityIDE';
-			'Docker.DockerDesktop';
+			'9NT1R1C2HH7J';
+			'OpenAI.Codex';
 			'OpenJS.NodeJS';
 			'python3';
 			'Tailscale.Tailscale';
 			'Cloudflare.cloudflared';
+			'Zen-Team.Zen-Browser';
+			'Google.Chrome';
 		);
 		foreach( $app in $apps ) {
 			winget install --id $app --silent --accept-package-agreements --accept-source-agreements;
